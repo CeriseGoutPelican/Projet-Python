@@ -3,7 +3,7 @@
 Ce projet permet de vérifier la connexion d'un ensemble de serveurs distants et d'inscrire les retours dans différents fichiers log. Ce projet a été réalisé dans le cadre du cours "Python Scripting" par Grégoire Gaonach, Mathieu Gabriel et Adrien Delaurens.
 ### 1. Installation et utilisation
 ##### 1.a) Gestion des dépendances
-La connexion avec les protocoles _http_ utilise la biliothèque de base `urllibe3`. Cependant, pour le protocole _https_, il est nécessaire d'utiliser un certificat de vérification SSL [comme undiqué dans la documentation de la bibliothèque](https://urllib3.readthedocs.io/en/latest/user-guide.html#certificate-verification) à l'aide de `certifi`.
+La connexion avec les protocoles _http_ utilise la biliothèque de base `urllib3`. Cependant, pour le protocole _https_, il est nécessaire d'utiliser un certificat de vérification SSL [comme undiqué dans la documentation de la bibliothèque](https://urllib3.readthedocs.io/en/latest/user-guide.html#certificate-verification) à l'aide de `certifi`.
 
 ```
 $ py -3.6 -m pip install certifi
